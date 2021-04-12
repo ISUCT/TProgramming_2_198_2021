@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+      <h1>Список дней недели:</h1>
+      <ul>
+        {% for day in days %}
+          <li> {{ day }} </li>
+        {% endfor %}
+      </ul>
+{% endblock %}
