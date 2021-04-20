@@ -5,6 +5,7 @@
 - Установленный [Python](https://www.python.org)
 - Установленный [VSCode](https://code.visualstudio.com) (или любой другой редактор на ваш выбор)
 - Установленный для VSCode [Python-плагин](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- Установленный [Docker](https://docs.docker.com/docker-for-windows/install/)
 
 ## После установки в терминале необходимо выполнить команду
 
@@ -28,14 +29,16 @@ pip install flask
 
 ## Flask
 
-- Запуск
+- Откройте терминал Bash и выполните следующее
 
   ```shell
-  cd start && sh start.sh
+  # Навигация в рабочую директорию
+  cd start
+  
+  # Запуск
+  sh start.sh
+  
+  # Тестирование
+  sh test.sh
   ```
 
-- Тестирование
-
-  ```shell
-  cd start && sh test.sh
-  ```
