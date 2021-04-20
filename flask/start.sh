@@ -1,6 +1,7 @@
 export FLASK_DEBUG=1
 
-docker-compose up -d
+# Раскоментировать при использовании Docker
+# docker-compose up -d
 
 # To load env variables
 export $(xargs <database.conf)
